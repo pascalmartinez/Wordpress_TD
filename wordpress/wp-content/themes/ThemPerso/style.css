@@ -1,0 +1,128 @@
+/**
+* Theme Name: ThemPerso
+* This theme, like WordPress, is licensed under the GPL.
+* Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/*carousel*/
+.carousel-item .img-fluid {
+  width:100%;
+  height:100%;
+}
+
+/* debut menu burger */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.nav {
+    padding-right: 75px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    right: 75px;
+    top: 0;
+}
+
+/* .custom-navbar .fa {font-size:25px} */
+
+@media (max-width:767px) {
+	.custom-navbar .navbar-right {
+	    float: right;
+	    padding-right: 15px;
+	}
+	.custom-navbar .nav.navbar-nav.navbar-right li {
+	    float: right;
+	}
+  	.custom-navbar .nav.navbar-nav.navbar-right li > a {
+	    padding:8px 5px;
+	}
+	.custom-navbar .navbar-toggle {
+	    float: left
+	}
+	.custom-navbar .navbar-header {
+	    float: left;
+	    width: auto!important;
+	}
+	.custom-navbar .navbar-collapse {
+	    clear: both;
+	    float: none;
+	}
+}
+
+/* fin menu burger */
+
+
+h2{
+    text-align: center;
+}
+
+.bg_div{
+
+    text-align: justify;
+    margin-top: 30px;
+    color: #808080;
+
+}
+.color_div_titre{
+    color: black;
+    text-align: center;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+
+}
+.centre{
+    text-align: center;
+}
+.img-cont{
+    width: 25px;
+    height: 25px;
+}
+
+.img-cont2{
+    width: 40px;
+    height: 40px;
+
+}
+
+.bla{
+    text-align: justify;
+}
+.logoindex{
+    height: 125px;
+    width: 75px;
+
+}
+.logowow{
+    height: 50px;
+    width: 50px;
+
+}
+.video{
+  width:100%;
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (min-width: 1159px) {
+  .logoindex{
+      height: 400px;
+      width: 230px;
+
+  }
+
+}
+
+.nav_contact{
+    background-color: rgb(49, 49, 49);
+    color: white;
+
+}
+.aligncenter {
+    display: block;
+    margin-left: auto; /*margin : 0 ; ne marche pas */
+    margin-right: auto;
+}
